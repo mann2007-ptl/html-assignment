@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <h1>CodingGita Student Registration Form</h1>
+    <p>"Please fill out the form below to register for the CodingGita MERN stack Program."</p>
+    <hr>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="no.">Mobile Number:</label>
+        <input type="number" id="no."><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other"><br><br>
+
+        <label for="hobbies">Hobbies:</label><br>
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="reading">
+        <label for="coding">Coding</label>
+        <input type="checkbox" name="hobbies" id="coding">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="sports" id="sports">
+        <label for="music">Music</label>
+        <input type="checkbox" name="music" id="music"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"><br><br>
+
+        <label for="file">Upload Photo:</label>
+        <input type="file" id="file"><br><br>
+      </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+        <label for="select">Course Selection</label>
+        <select name="Course Selection" id="">
+            <option value="mern stack">MERN stack</option>
+            <option value="dsa">DSA</option>
+            <option value="web development">Web Development</option>
+        </select><br><br>
+
+        <label for="add">Address</label>
+       <textarea name="add" id="" rows="7" cols="50">Enter Your Address..</textarea><br><br>
+
+       <label for="study">Preferred Study Hour:</label>
+       <input type="range" name="study" id="study" min="1" max="24" oninput="output.value=this.value">
+       <output name="output"></output><br><br>
+
+       <label for="color">Favourite Color:</label>
+       <input type="color" name="color" id=""><br><br>
+
+       <label for="portfolio">Portfolio Website:</label>
+       <input type="url" name="portfolio" id="portfolio" placeholder="http://example.com"><br><br>
+
+       <label for="search">Search:</label>
+       <input type="search" name="search"><br><br>
+
+       <label for="time">Preferred Study Time:</label>
+       <input type="time" name="time"><br><br>
+       </fieldset>
+       <hr>
+
+       <button>submit</button><br>
+       <button>reset</button>
+       <hr>
+
+
+       
+
+    
+
+        
+
+        
+        
+
+
+
+    </form>
+</body>
+</html>
